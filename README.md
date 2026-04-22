@@ -21,7 +21,7 @@ Performance was verified using EXPLAIN ANALYZE to confirm Index Scans over Seque
 
 📋 Queries
 1. Basic Table Reads
-sqlSELECT * FROM users;
+sql SELECT * FROM users;
 SELECT * FROM products;
 SELECT * FROM orders;
 SELECT * FROM order_items;
